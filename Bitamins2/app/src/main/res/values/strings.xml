@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Bitamins</string>
+    <string name="action_settings">Share</string>
+    <string name="title_activity_main2">Bitamins</string>
+    <string name="title_activity_main3">Bitamins</string>
+    <string name="free_tiket">img</string>
+    <string name="title_activity_bita_ads">Bitamins</string>
+
+    <string name="hello_world">Hello world!</string>
+    <!-- -
+        This is an ad unit ID for a banner test ad. Replace with your own banner ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!-  <string name="banner_ad_unit_id">ca-app-pub-9316863024404957/8793268026</string>-->
+    <string name="banner_ad_unit_id">ca-app-pub-9316863024404957/8793268026</string>
+
+    //ca-app-pub-9316863024404957/8793268026
+    <string name="title_activity_splashscreen">splashscreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_splash">Bitamins</string>
+    //ca-app-pub-2630655086490983/7804808154
+</resources>

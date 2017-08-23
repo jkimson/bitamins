@@ -1,0 +1,1605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:fitsSystemWindows="true"
+    tools:context="bitamins.bmwaresd.apps.bitamins.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="31dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/button29"
+                    android:background="@drawable/b"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp" />
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+
+                    android:theme="@style/GalaxyZooThemeToolbarDarkOverflow"
+                    app:popupTheme="@style/Theme.AppCompat.NoActionBar"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:text="How Do I Feel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button19"
+                    android:layout_weight="1.92"
+                    android:backgroundTint="#424242"
+                    android:textColor="#fff"
+                    android:onClick="emotionshow"
+                    android:allowUndo="true" />
+
+                <Button
+                    android:text="I'm Thinking About"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button18"
+                    android:layout_weight="1"
+                    android:textColor="#FFF"
+                    android:backgroundTint="#424242"
+                    android:onClick="aboutsis" />
+            </LinearLayout>
+
+            <Button
+                android:text="Hide Menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button30"
+                android:backgroundTint="#ffffff"
+                android:onClick="backss"
+                android:visibility="gone"
+                android:textColor="#000" />
+        </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_share"
+        android:visibility="visible"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="5dp"
+        app:backgroundTint="#424242"
+        android:tint="#fff"
+        android:tintMode="src_atop"
+        android:layout_marginBottom="5dp" />
+
+    <include layout="@layout/content_main" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:visibility="visible"
+        android:id="@+id/alllayout">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/abouts"
+                android:background="@android:color/background_light"
+                android:visibility="gone"
+                android:layout_marginTop="152dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                    <Button
+                        android:text="Abortion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton1"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+
+                    <Button
+                        android:text="Apostles"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton2"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Assurance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton3"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Atheism"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton4"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Baptism"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton5"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Beauty"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton6"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Bitterness"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton7"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Brothers"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton8"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Comfort"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton9"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Dancing"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton10"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Dating"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton11"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Death"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton12"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Demons"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton13"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Depression"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton14"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Devotional"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton15"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Discipline"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton16"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Doubt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton17"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Faith"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton18"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Family"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton19"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Fear"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton20"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Forgiveness"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton21"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Friendship"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton22"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Gambling"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton23"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Giving"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton24"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Goodness"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton25"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Gratitude"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton26"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Guidance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton27"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Happiness"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton28"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Healing"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton29"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Hell"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton30"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Holy Spirit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton31"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Hope"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton32"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Jealousy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton33"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Lifestyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton34"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Light"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton35"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Love"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton36"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Lust"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton37"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Lying"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton38"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Marriage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton39"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" /><Button
+                    android:text="Martyrs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dobutton40"
+                    android:backgroundTint="#424242"
+                    android:textColor="#fff"
+                    android:onClick="emotionj6"
+                    android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Mercy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton41"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Miracles"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton42"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Money"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton43"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Murder"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton44"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Neighbors"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton45"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Obedience"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton46"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Passover"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton47"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Patience"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton48"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Peace"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton49"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Persecution"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton50"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Praise"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton51"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+
+                    <Button
+                        android:text="Prayer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton52"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Repentance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton53"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Riches"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton54"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Salvation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton55"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Sexuality"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton56"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Shame"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton57"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" /> <Button
+                    android:text="Sin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dobutton58"
+                    android:backgroundTint="#424242"
+                    android:textColor="#fff"
+                    android:onClick="emotionj6"
+                    android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Strength"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton59"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Suicide"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton60"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Tattoos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton61"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Temptation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton62"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Thieves"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton63"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Trials"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton64"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Trust"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton65"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Warfare"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton66"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Works"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton67"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Worry"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dobutton68"
+                        android:backgroundTint="#424242"
+                        android:textColor="#fff"
+                        android:onClick="emotionj6"
+                        android:layout_marginTop="-11dp" />
+
+
+
+
+
+
+
+
+                </LinearLayout>
+            </ScrollView>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/disgustlist"
+                android:background="@android:color/background_light"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                    <Button
+                        android:text="Ashamed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/disgustb1"
+                        android:backgroundTint="#325130"
+                        android:textColor="@android:color/background_light"
+                        android:onClick="emotionj5" />
+                    <Button
+                        android:text="Bitter"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/disgustb2"
+                        android:backgroundTint="#325130"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginTop="-11dp"
+                        android:onClick="emotionj5" />
+                    <Button
+                        android:text="Bored"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/disgustb3"
+                        android:backgroundTint="#325130"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginTop="-11dp"
+                        android:onClick="emotionj5" />
+                    <Button
+                        android:text="Guilty"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/disgustb4"
+                        android:backgroundTint="#325130"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginTop="-11dp"
+                        android:onClick="emotionj5" />
+                    <Button
+                        android:text="Irritated"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/disgustb5"
+                        android:backgroundTint="#325130"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginTop="-11dp"
+                        android:onClick="emotionj5" />
+                    <Button
+                        android:text="Tired"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/disgustb6"
+                        android:backgroundTint="#325130"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginTop="-11dp"
+                        android:onClick="emotionj5" />
+                </LinearLayout>
+            </ScrollView>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/fearlist"
+                android:background="@android:color/background_light"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                    <Button
+                        android:text="Afraid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/fearb1"
+                        android:backgroundTint="#5b2b57"
+                        android:textColor="@android:color/background_light"
+                        android:onClick="emotionj4" />
+                    <Button
+                        android:text="Scared"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/fearb2"
+                        android:backgroundTint="#5b2b57"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginTop="-11dp"
+                        android:onClick="emotionj4" />
+                    <Button
+                        android:text="Tempt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/fearb3"
+                        android:backgroundTint="#5b2b57"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginTop="-11dp"
+                        android:onClick="emotionj4" />
+                    <Button
+                        android:text="Suffering"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/fearb4"
+                        android:backgroundTint="#5b2b57"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginTop="-11dp"
+                        android:onClick="emotionj4" />
+                    <Button
+                        android:text="Worried"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/fearb5"
+                        android:backgroundTint="#5b2b57"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginTop="-11dp"
+                        android:onClick="emotionj4" />
+                    <Button
+                        android:text="Jealous"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/fearb6"
+                        android:backgroundTint="#5b2b57"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginTop="-11dp"
+                        android:onClick="emotionj4" />
+                    <Button
+                        android:text="Alone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/fearb7"
+                        android:backgroundTint="#5b2b57"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginTop="-11dp"
+                        android:onClick="emotionj4" />
+
+                </LinearLayout>
+            </ScrollView>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/angrylist"
+                android:visibility="gone"
+                android:background="@android:color/background_light">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                    <Button
+                        android:text="Angry "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/angryb1"
+                        android:backgroundTint="#761618"
+                        android:textColor="@android:color/background_light"
+                        android:onClick="emotionj3" />
+                    <Button
+                        android:text="Godlessness"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/angryb2"
+                        android:backgroundTint="#761618"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginTop="-11dp"
+                        android:onClick="emotionj3" />
+                    <Button
+                        android:text="Jealous"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/angryb3"
+                        android:backgroundTint="#761618"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginTop="-11dp"
+                        android:onClick="emotionj3" />
+                    <Button
+                        android:text="Bitter"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/angryb4"
+                        android:backgroundTint="#761618"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginTop="-11dp"
+                        android:onClick="emotionj3" />
+                    <Button
+                        android:text="Emotional"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/angryb5"
+                        android:backgroundTint="#761618"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginTop="-11dp"
+                        android:onClick="emotionj3" />
+                    <Button
+                        android:text="Bad"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/angryb6"
+                        android:backgroundTint="#761618"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginTop="-11dp"
+                        android:onClick="emotionj3" />
+                </LinearLayout>
+            </ScrollView>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/sadlist"
+                android:background="@android:color/background_light"
+                android:visibility="gone"
+                android:layout_marginTop="100dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:text="Alone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sadb1"
+                        android:backgroundTint="#28526b"
+                        android:textColor="@android:color/background_light"
+                        android:onClick="emotionj2" />
+                    <Button
+                        android:text="Bad"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sadb2"
+                        android:backgroundTint="#28526b"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginTop="-11dp"
+                        android:onClick="emotionj2" />
+
+                    <Button
+                        android:text="Confused"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sadb3"
+                        android:backgroundTint="#28526b"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginTop="-11dp"
+                        android:onClick="emotionj2" />
+                    <Button
+                        android:text="Depressed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sadb4"
+                        android:backgroundTint="#28526b"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginTop="-11dp"
+                        android:onClick="emotionj2" />
+                    <Button
+                        android:text="Emotional"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sadb5"
+                        android:backgroundTint="#28526b"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginTop="-11dp"
+                        android:onClick="emotionj2" />
+                    <Button
+                        android:text="Empty"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sadb6"
+                        android:backgroundTint="#28526b"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginTop="-11dp"
+                        android:onClick="emotionj2" />
+                    <Button
+                        android:text="Loss"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sadb7"
+                        android:backgroundTint="#28526b"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginTop="-11dp"
+                        android:onClick="emotionj2" />
+                    <Button
+                        android:text="Sad"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sadb8"
+                        android:backgroundTint="#28526b"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginTop="-11dp"
+                        android:onClick="emotionj2" />
+                    <Button
+                        android:text="Sorry"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sadb9"
+                        android:backgroundTint="#28526b"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginTop="-11dp"
+                        android:onClick="emotionj2" />
+                    <Button
+                        android:text="Suffering
+"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sadb10"
+                        android:backgroundTint="#28526b"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginTop="-11dp"
+                        android:onClick="emotionj2" />
+
+                </LinearLayout>
+            </ScrollView>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/joylist"
+                android:background="#fff"
+                android:visibility="gone"
+                android:layout_marginTop="152dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:text="Accomplished"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb1"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+
+                    <Button
+                        android:text="Awesome"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb2"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Better"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb3"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Blessed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb4"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Brave"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb5"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Courage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb6"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Determined"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb7"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Empowered"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb8"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Excited"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb9"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Faithful"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb10"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Fearless"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb11"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Free"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb12"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Generous"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb13"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+
+                    <Button
+                        android:text="Good"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb15"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Grateful"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb16"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Great"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb17"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Happy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb18"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Inspired"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb19"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Joy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb20"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Loved"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb21"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Motivated"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb22"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Overwhelmed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb23"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Positive"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb24"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Protective"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb25"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Proud"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb26"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+
+                    <Button
+                        android:text="Strong"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb28"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+                    <Button
+                        android:text="Thankful"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/joyb29"
+                        android:backgroundTint="@android:color/holo_orange_light"
+                        android:textColor="#000"
+                        android:onClick="emotionj1"
+                        android:layout_marginTop="-11dp" />
+
+                </LinearLayout>
+
+
+
+            </ScrollView>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="match_parent"
+                android:id="@+id/emotionlist"
+                android:visibility="gone"
+                android:background="@android:color/background_light">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:text="I Dont Know"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rnd"
+                        android:layout_weight="0.89"
+                        android:layout_marginTop="-5dp"
+                        android:drawableBottom="@drawable/random"
+                        android:onClick="nulls" />
+
+                    <Button
+                        android:text="Joy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Joy"
+                        android:layout_weight="0.89"
+                        android:layout_marginTop="-5dp"
+                        android:drawableBottom="@drawable/joy"
+                        android:backgroundTint="#e3fd90"
+                        android:onClick="joylists" />
+                    <Button
+                        android:text="Sadness"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Sad"
+                        android:layout_weight="0.89"
+                        android:layout_marginTop="-5dp"
+                        android:drawableBottom="@drawable/sad"
+                        android:backgroundTint="#90cafd"
+                        android:onClick="sadlists" />
+                    <Button
+                        android:text="Anger"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Anger"
+                        android:layout_weight="0.89"
+                        android:layout_marginTop="-5dp"
+                        android:drawableBottom="@drawable/angry"
+                        android:backgroundTint="#f6787c"
+                        android:onClick="angrylists" />
+                    <Button
+                        android:text="Fear"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Fear"
+                        android:layout_weight="0.89"
+                        android:layout_marginTop="-5dp"
+                        android:drawableBottom="@drawable/fear"
+                        android:backgroundTint="#de90fd"
+                        android:visibility="visible"
+                        android:onClick="fearlists" />
+                    <Button
+                        android:text="Disgust"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Disgust"
+                        android:layout_weight="0.89"
+                        android:layout_marginTop="-5dp"
+                        android:drawableBottom="@drawable/disgust"
+                        android:backgroundTint="#90fda2"
+                        android:onClick="disgustlists" />
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_light"
+                android:id="@+id/mainbutton">
+
+                <Button
+                    android:text="Get Another Bitamins"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button20"
+                    android:backgroundTint="@android:color/background_light"
+                    android:textColor="@android:color/black"
+                    android:onClick="random" />
+
+                <Button
+                    android:text="Get Another Bitamins"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button20j"
+                    android:backgroundTint="@android:color/holo_orange_light"
+                    android:textColor="#000"
+                    android:onClick="joyemotion"
+                    android:visibility="gone" />
+
+                <Button
+                    android:text="Get Another Bitamins"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button20s"
+                    android:backgroundTint="#386b7f"
+                    android:textColor="@android:color/background_light"
+                    android:onClick="joyemotion"
+                    android:visibility="gone" />
+
+                <Button
+                    android:text="Get Another Bitamins"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button20a"
+                    android:backgroundTint="#68111c"
+                    android:textColor="@android:color/background_light"
+                    android:onClick="joyemotion"
+                    android:visibility="gone" />
+
+                <Button
+                    android:text="Get Another Bitamins"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button20f"
+                    android:backgroundTint="#5a3961"
+                    android:textColor="@android:color/background_light"
+                    android:onClick="joyemotion"
+                    android:visibility="gone" />
+                <Button
+                    android:text="Get Another Bitamins"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button20d"
+                    android:backgroundTint="#39603f"
+                    android:textColor="@android:color/background_light"
+                    android:onClick="joyemotion"
+                    android:visibility="gone" />
+
+                <Button
+                    android:text="Get Another Bitamins"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button20all"
+                    android:backgroundTint="#424242"
+                    android:onClick="allemotion"
+                    android:visibility="gone"
+                    android:textColor="#fff" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#fff">
+
+                    <com.google.android.gms.ads.AdView
+                        android:id="@+id/adView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        ads:adUnitId="@string/banner_ad_unit_id"
+                        ads:adSize="BANNER">
+
+                    </com.google.android.gms.ads.AdView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/coloring"
+        android:gravity="bottom"
+        android:visibility="gone">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#fff">
+
+                <TextView
+                    android:text="Pick A Color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView4"
+                    android:gravity="left"
+                    android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="103dp"
+                        android:id="@+id/button28"
+                        android:backgroundTint="#fff"
+                        android:layout_weight="0.35" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="103dp"
+                        android:id="@+id/button27"
+                        android:layout_weight="0.42"
+                        android:backgroundTint="#143670" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="103dp"
+                        android:id="@+id/button26"
+                        android:layout_weight="1"
+                        android:backgroundTint="#3b2350" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="103dp"
+                        android:id="@+id/button25"
+                        android:layout_weight="1"
+                        android:backgroundTint="#f6ff00" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="103dp"
+                        android:id="@+id/button24"
+                        android:layout_weight="1"
+                        android:backgroundTint="#c68c40" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="103dp"
+                        android:id="@+id/button23"
+                        android:layout_weight="1"
+                        android:backgroundTint="#325935" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="103dp"
+                        android:id="@+id/button22"
+                        android:layout_weight="1"
+                        android:backgroundTint="#12857e" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="103dp"
+                        android:id="@+id/button21"
+                        android:layout_weight="1"
+                        android:backgroundTint="#4f0303"
+                        android:onClick="changetheme" />
+                </LinearLayout>
+            </LinearLayout>>
+        </HorizontalScrollView>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
